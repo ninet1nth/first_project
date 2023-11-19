@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson2</title>
+
+    <style>
+        /*table{
+            border: 2px solid#FF8c00;
+        }
+        
+        *{
+            color:blue;
+        }
+        ul h1{
+            color: rgb(156, 17, 133);
+            text-transform: uppercase;
+            font-weight: 200;
+            text-align: center;
+        }
+        .zag2{
+            color: red;
+        }
+        #zag3{
+            color: blueviolet;
+        }
+        */
+        .css-menu{
+            list-style: none;
+            border-bottom: 1px #865865 solid ;
+            padding-bottom: 10px;
+        }
+        .css-menu li{
+             display: inline;
+             margin-right: 10px;
+        }
+        /* text-decoration: none;
+            background: #f7f7f9;
+            border:1px darkturquoise solid;
+            border-bottom: none;
+            padding: 10px 14px;*/
+        .css-menu li a{
+            color: chocolate;
+            background: rgba(229, 229, 231, 0.904);
+            border:1px darkturquoise solid;
+            border-bottom: none;
+            padding: 10px 14px;
+            
+        }
+        .css-menu li a.selected{
+            color: red;
+            background: #fff;
+            border: 1px #888899 solid;
+            border-bottom: 3px #fff solid;;
+            padding: 14px 14px 10px 14px;
+
+        }
+        .css-menu li a.selected:hover{
+            padding: 14px 14px 12px 14px;
+            background: gray;
+        }
+        .css-menu li a:hover{
+            padding: 30px 14px 12px 14px;
+            background: gray;
+        }
+        tr{
+            background-color: #000;
+        }
+        th{
+            color: white;
+            font-size: 14px;
+        }
+        td{
+            color: #888899;
+        }
+        th:hover{
+            background-color: aquamarine;
+        }
+        caption{
+            text-transform: uppercase;
+        }
+        td:hover{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <h1 >Hello World</h1>
+    </ul>
+    <h1>H11</h1>
+    <h2>1</h2>
+    <h2 class="zag2">2</h2>
+    <h2 id="zag3">3</h2>
+    <ul class="css-menu">
+        <li><a href="#">Main</a></li>
+        <li><a href="#">CSS lessons</a></li>
+        <li><a href="#" class="selected">CSS menu</a></li>
+        <li><a href="#">Information</a></li>
+    
+    </ul>
+
+    <table>
+        <caption>World turnir</caption>
+    <thead>
+        <tr>
+            <th></th>
+            <th>matches</th>
+            <th>wins</th>
+            <th>loses</th>
+            <th>nobody</th>
+            <th>discvalification</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>tanos</th>
+            <td>1</td>
+            <td>4</td>
+            <td>2</td>
+            <td>1</td>
+            <td align="center">5</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>luis</th>
+            <td>0</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th>mike</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
